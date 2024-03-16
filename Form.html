@@ -39,6 +39,76 @@
         <button>search Google</button>
 
     </form>
+    <h2>More inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree" id="agree" checked>
+        <label for="agree">I gree to everything</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="">Fish</option>
+                <option value="">Veg</option>
+                <option value="">Steak</option>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="Cheese">Amount of Cheese</label>
+            <input type="range" name="chesse level" id="cheese" min="1" max="100" step="10" value="15">
+
+        </p>
+        <button>submit</button>
+
+        <p>
+            <label for="requests">Any Special Requests </label>
+            <textarea name="requests" id="requests" cols="30" rows="10" cols="40" placeholder="hello"></textarea>
+            plac
+        </p>
+
+        <p>
+            <label for="cheese">Amount of cheese</label>
+            <input type="range" max="100" min="0" name="chees level" step="10" value="70">
+        </p>
+
+        <p>
+            <label for="">Any Requests</label>
+            <textarea name="requests" id="requests" cols="10" rows="10" placeholder="write your comment"></textarea>
+        </p>
+
+        <h2>Validation Demo</h2>
+        <form action="/dummy">
+            <label for="First">Enter First Name</label>
+            <input type="text" name="First" id="first" required>
+            <p>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" minlength="5" maxlength="10" required>
+            </p>
+
+            <p>
+                <label for="email">Enter email</label>
+                <input type="email" name="email" id="email">
+
+            </p>
+            <button>submit</button>
+
+        </form>
+
+
+    </form>
+
+
+
+
 </body>
 
 </html>
