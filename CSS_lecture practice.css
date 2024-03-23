@@ -89,3 +89,8 @@ p::first-line {
 p::selection {
     background-color: #457b9d;
 }
+
+button {
+    background-color: magenta;
+
+}
