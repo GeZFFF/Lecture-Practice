@@ -83,7 +83,7 @@ h2::first-letter {
 }
 
 p::first-line {
-    color: purple;
+    color: red;
 }
 
 p::selection {
