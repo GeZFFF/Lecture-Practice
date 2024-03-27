@@ -83,11 +83,11 @@ h2::first-letter {
 }
 
 p::first-line {
-    color: red;
+    color: blue;
 }
 
 p::selection {
-    background-color: #457b9d;
+    background-color: #red;
 }
 
 button {
